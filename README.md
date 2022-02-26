@@ -4,6 +4,7 @@ It contains the basics of Numpy library which were covered in an udemy course
 Numpy Library: It is a library in python which deals with the numbers and arithmetic operations.
 
 Array= It is the collection of elements of same type
+arange function--> It is used to create arrays by giving initial and end values
 
 Functions in array:
 1) zeros() : It returns a new array of given shape and type with zeros
@@ -17,4 +18,10 @@ Functions in array:
 9) flatten() : returns a copy of the array collapsed into 1D
 10) ravel(): Similar two flatten
 11) Transpose(): returns column elements into row elements and vice versa
-
+12) Swapaxes(): This function interchanges the two axes of an array.
+13) Concatenate function: It helps to join two or more arrays.
+14) Matrix functions:
+    i) matrix addition: (a+b)
+    ii) matrix multiplication: dot function
+    iii) Linear algebra: To find inverse of a matrix (d=np.linalg.inv(c))
+    iv) power of a matrix: b=np.linalg.matrix_power(a, -2)
